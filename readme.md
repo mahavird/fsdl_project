@@ -6,7 +6,7 @@
 ![Viewer](static/P21.png)
 ### Authors
 
-[Changsin lee](https://www.linkedin.com/), [Mahavir Dwivedi](https://www.linkedin.com/in/mahavir-dwivedi/)
+[Changsin lee](https://www.linkedin.com/in/changsin/), [Mahavir Dwivedi](https://www.linkedin.com/in/mahavir-dwivedi/)
 
 ## Introduction
 As we know that an AI system involves two major pillars, one is code(model + algorithm) and the other is data. In a recent [interview]((https://panel.holoviz.org/reference/panes/HoloViews.html)) Andrew Ng mentioned the importance of high quality data.
@@ -68,8 +68,27 @@ Here are our validation loss curves, mean mAP and Predicition Images.
 ![Viewer](static/prediction_2.png)
 
 ### Dataset:
+Datasets used in the project are:
+
+1. [Kaggle License Plate Dataset](https://www.kaggle.com/andrewmvd/car-plate-detection)
+2. [UFPR License Plate Dataset](https://web.inf.ufpr.br/vri/databases/ufpr-alpr/)
+
+### Tech Stack used
+1. Pytorch
+2. Streamlit
+3. Docker
+4. Weights and Bias
+5. Google Cloud Run
+
 
 ### Future Work:
+1. Completion of data flywheel loop to integrate active learning 
+2. Replicate results of SOTA papers for UFPR dataset
+3. Integrate Data Qulaity Metric in the pipeline
+4. Include results on other License Plate Datasets
 
 ### References:
 
+1. [Full Stack Deep Learning](https://fullstackdeeplearning.com/)
+2. [Yolov5](https://github.com/ultralytics/yolov5)
+3. [Streamlit Tutorial](https://github.com/mrdbourke/cs329s-ml-deployment-tutorial)
