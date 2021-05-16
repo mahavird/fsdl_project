@@ -15,7 +15,8 @@ The project aims to demonstrate the improvement in model performance using Data 
 ![Viewer](static/flywheel.png)
 
 ### Data Quality Metric
-
+Visit this repository to know more about our latest work on Data Qulaity Metric Hypothesis.
+[https://github.com/changsin/FSDL](https://github.com/changsin/FSDL)
 ### Repository Structure
 Training code can be found in training directory.
 Notebooks used can be found in notebooks directory.
